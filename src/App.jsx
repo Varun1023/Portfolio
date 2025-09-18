@@ -9,10 +9,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
-      {/* Header */}
+
       <Header />
 
-      {/* Hero Section */}
+
       <section className="text-center py-20 bg-gradient-to-b from-blue-50 to-white">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -27,96 +27,111 @@ function App() {
         </p>
       </section>
 
-      {/* Projects Section */}
-<section id="projects" className="py-16 bg-gray-100">
-  <div className="max-w-6xl mx-auto px-6">
-    <h3 className="text-3xl font-bold mb-10 text-center">Projects🚀</h3>
-    <div className="grid md:grid-cols-2 gap-8">
 
-      {/* Myntra Clone */}
-      <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
-        <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-          <img src="src/assets/myntra.png" alt="Myntra Clone" className="w-full h-full object-cover" />
+      <section id="projects" className="py-16 bg-gray-100">
+        <div className="max-w-6xl mx-auto px-6">
+          <h3 className="text-3xl font-bold mb-10 text-center">Projects🚀</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="public\Images\Myntra.png" alt="Myntra Clone" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">Myntra Clone</h4>
+              <p className="text-gray-600 mb-3">E-commerce website clone with product listing and cart features.</p>
+              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
+
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="/Images/lee.jpeg" alt="Lee Clone" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">Lee Clone</h4>
+              <p className="text-gray-600 mb-3">Clothing brand website clone with responsive design.</p>
+              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
+
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="/Images/blinkit.png" alt="Blinkit Clone" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">Blinkit Clone</h4>
+              <p className="text-gray-600 mb-3">Grocery delivery app clone built with React & API integration.</p>
+              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
+
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="/Images/packshift.png" alt="Packshift Clone" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">Packshift Clone</h4>
+              <p className="text-gray-600 mb-3">Logistics and courier service website clone.</p>
+              <a href="https://packshiftclone.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Packshift-clone" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
+
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="/Images/Almond.png" alt="Almond Webpage" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">Almond Webpage</h4>
+              <p className="text-gray-600 mb-3">Landing page for almond products with clean UI.</p>
+              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
+
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="/Images/moviefinder.png" alt="Movie Finder" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">Movie Finder</h4>
+              <p className="text-gray-600 mb-3">Search movies using a public API with React hooks.</p>
+              <a href="https://movie-finder-ten-omega.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Movie-finder" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
+
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="/Images/weather.png" alt="Weather App" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">Weather App</h4>
+              <p className="text-gray-600 mb-3">Weather forecast app using live API and responsive UI.</p>
+              <a href="https://weather-app-iota-peach-62.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Weather-app" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
+          </div>
         </div>
-        <h4 className="text-xl font-semibold mb-2">Myntra Clone</h4>
-        <p className="text-gray-600 mb-3">E-commerce website clone with product listing and cart features.</p>
-        <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-        <a href="#" className="text-gray-800 font-medium">GitHub</a>
-      </motion.div>
+      </section>
 
-      {/* Lee Clone */}
-      <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
-        <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-          <img src="src/assets/lee.jpeg" alt="Lee Clone" className="w-full h-full object-cover" />
-        </div>
-        <h4 className="text-xl font-semibold mb-2">Lee Clone</h4>
-        <p className="text-gray-600 mb-3">Clothing brand website clone with responsive design.</p>
-        <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-        <a href="#" className="text-gray-800 font-medium">GitHub</a>
-      </motion.div>
 
-      {/* Blinkit Clone */}
-      <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
-        <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-          <img src="src/assets/blinkit.png" alt="Blinkit Clone" className="w-full h-full object-cover" />
-        </div>
-        <h4 className="text-xl font-semibold mb-2">Blinkit Clone</h4>
-        <p className="text-gray-600 mb-3">Grocery delivery app clone built with React & API integration.</p>
-        <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-        <a href="#" className="text-gray-800 font-medium">GitHub</a>
-      </motion.div>
-
-      {/* Packshift Clone */}
-      <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
-        <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-          <img src="src/assets/packshift.png" alt="Packshift Clone" className="w-full h-full object-cover" />
-        </div>
-        <h4 className="text-xl font-semibold mb-2">Packshift Clone</h4>
-        <p className="text-gray-600 mb-3">Logistics and courier service website clone.</p>
-        <a href="https://packshiftclone.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-        <a href="https://github.com/Varun1023/Packshift-clone" className="text-gray-800 font-medium">GitHub</a>
-      </motion.div>
-
-      {/* Almond Webpage */}
-      <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
-        <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-          <img src="src/assets/Almond.png" alt="Almond Webpage" className="w-full h-full object-cover" />
-        </div>
-        <h4 className="text-xl font-semibold mb-2">Almond Webpage</h4>
-        <p className="text-gray-600 mb-3">Landing page for almond products with clean UI.</p>
-        <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-        <a href="#" className="text-gray-800 font-medium">GitHub</a>
-      </motion.div>
-
-      {/* Movie Finder */}
-      <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
-        <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-          <img src="src/assets/moviefinder.png" alt="Movie Finder" className="w-full h-full object-cover" />
-        </div>
-        <h4 className="text-xl font-semibold mb-2">Movie Finder</h4>
-        <p className="text-gray-600 mb-3">Search movies using a public API with React hooks.</p>
-        <a href="https://movie-finder-ten-omega.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-        <a href="https://github.com/Varun1023/Movie-finder" className="text-gray-800 font-medium">GitHub</a>
-      </motion.div>
-
-      {/* Weather App */}
-      <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
-        <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-          <img src="src/assets/weather.png" alt="Weather App" className="w-full h-full object-cover" />
-        </div>
-        <h4 className="text-xl font-semibold mb-2">Weather App</h4>
-        <p className="text-gray-600 mb-3">Weather forecast app using live API and responsive UI.</p>
-        <a href="https://weather-app-iota-peach-62.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-        <a href="https://github.com/Varun1023/Weather-app" className="text-gray-800 font-medium">GitHub</a>
-      </motion.div>
-
-    </div>
-  </div>
-</section>
+      <div className="certificates max-w-4xl mx-auto px-6 mt-[50px] text-center">
+        <h1 className='text-[30px] font-bold  '>CERTIFICATES📜</h1>
+        <img
+          src="/Images/certificate.jpg"
+          alt="Certificate 1"
+          className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
+        />
+        <img
+          src="/Images/Ethical Hacking.png"
+          alt="Certificate 2"
+          className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
+        />
+      </div>
 
 
 
-      {/* Skills Section */}
+
+
       <section id="skills" className="py-16">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h3 className="text-3xl font-bold mb-10"> Skills🛠</h3>
@@ -135,7 +150,7 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
+
       <section id="about" className="py-16 bg-gray-100">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-3xl font-bold mb-6"> About Me🙋</h3>
@@ -162,7 +177,6 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section id="contact" className="py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-3xl font-bold mb-6">Contact 📬</h3>
@@ -176,7 +190,7 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
+
       <Footer />
     </div>
   )
