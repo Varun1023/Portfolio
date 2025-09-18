@@ -114,20 +114,7 @@ function App() {
       </section>
 
 
-      <div className="certificates max-w-4xl mx-auto px-6 mt-[50px] text-center">
-        <h1 className='text-[30px] font-bold  '>CERTIFICATES📜</h1>
-        <img
-          src="/Images/certificate.jpg"
-          alt="Certificate 1"
-          className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
-        />
-        <img
-          src="/Images/Ethical Hacking.png"
-          alt="Certificate 2"
-          className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
-        />
-      </div>
-
+      
 
 
 
@@ -165,12 +152,12 @@ function App() {
         <div className="certificates max-w-4xl mx-auto px-6 mt-[50px] text-center">
           <h1 className='text-[30px] font-bold  '>CERTIFICATES📜</h1>
           <img
-            src="src/assets/certificate.jpg"
+            src="public\Images\certificate.jpg"
             alt="Certificate 1"
             className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
           />
           <img
-            src="src/assets/Ethical Hacking.png"
+            src="public\Images\ethicalhacking.png"
             alt="Certificate 2"
             className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
           />
