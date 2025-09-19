@@ -39,8 +39,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Myntra Clone</h4>
               <p className="text-gray-600 mb-3">E-commerce website clone with product listing and cart features.</p>
-              <a href="https://myntra-beige-rho.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="https://github.com/Varun1023/Myntra-clone" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://myntra-beige-rho.vercel.app/" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Myntra-clone" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -50,8 +50,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Lee Clone</h4>
               <p className="text-gray-600 mb-3">Clothing brand website clone with responsive design.</p>
-              <a href="https://lee-clone-ten.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="https://github.com/Varun1023/Lee-clone" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://lee-clone-ten.vercel.app/" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Lee-clone" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -61,8 +61,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Blinkit Clone</h4>
               <p className="text-gray-600 mb-3">Grocery delivery app clone built with React & API integration.</p>
-              <a href="https://blinkit-one-eta.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="https://github.com/Varun1023/Blinkit" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://blinkit-one-eta.vercel.app/" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Blinkit" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -72,8 +72,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Packshift Clone</h4>
               <p className="text-gray-600 mb-3">Logistics and courier service website clone.</p>
-              <a href="https://packshiftclone.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="https://github.com/Varun1023/Packshift-clone" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://packshiftclone.vercel.app/" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Packshift-clone" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -83,8 +83,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Oriflav-dryfruit</h4>
               <p className="text-gray-600 mb-3">Landing page for almond products with clean UI.</p>
-              <a href="https://oriflav-dryfruits.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="https://github.com/Varun1023/Oriflav-dryfruits" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://oriflav-dryfruits.vercel.app/" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Oriflav-dryfruits" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -94,8 +94,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Movie Finder</h4>
               <p className="text-gray-600 mb-3">Search movies using a public API with React hooks.</p>
-              <a href="https://movie-finder-ten-omega.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="https://github.com/Varun1023/Movie-finder" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://movie-finder-ten-omega.vercel.app/" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Movie-finder" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -105,8 +105,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Weather App</h4>
               <p className="text-gray-600 mb-3">Weather forecast app using live API and responsive UI.</p>
-              <a href="https://weather-app-iota-peach-62.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="https://github.com/Varun1023/Weather-app" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://weather-app-iota-peach-62.vercel.app/" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Weather-app" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
           </div>
@@ -163,6 +163,46 @@ function App() {
           />
         </div>
       </section>
+
+
+            {/* Learn in Public Challenge Section */}
+      <section id="challenge" className="py-16 bg-[#E5E7EB]">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h3 className="text-3xl font-bold mb-10">Learn in Public Challenge 📖</h3>
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-gray-50 shadow-lg rounded-2xl p-8"
+          >
+            <h4 className="text-xl font-semibold mb-3">#LearnInPublic Journey</h4>
+            <p className="text-gray-700 mb-4">
+              I also started a challenge on <span className="font-semibold">LinkedIn</span> where I
+              shared and taught the skills I've learned during my web development journey 🚀.  
+              This challenge reflects my progress, consistency, and passion for helping others learn
+              while improving my own understanding.
+            </p>
+            <div className="space-x-6">
+              <a
+                href="https://www.linkedin.com/in/varun-gehlot-19860231b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 font-medium"
+              >
+                See on LinkedIn
+              </a>
+              <a
+                href="https://github.com/Varun1023/Web-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 font-medium"
+              >
+                GitHub Repo
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+
 
       <section id="contact" className="py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
