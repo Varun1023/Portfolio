@@ -152,7 +152,7 @@ function App() {
         <div className="certificates max-w-4xl mx-auto px-6 mt-[50px] text-center">
           <h1 className='text-[30px] font-bold  '>CERTIFICATES📜</h1>
           <img
-            src="/Images/certificate.jpg."
+            src="/Images/certificate.jpg"
             alt="Certificate 1"
             className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
           />
