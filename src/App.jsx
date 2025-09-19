@@ -39,8 +39,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Myntra Clone</h4>
               <p className="text-gray-600 mb-3">E-commerce website clone with product listing and cart features.</p>
-              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://myntra-beige-rho.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Myntra-clone" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -50,8 +50,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Lee Clone</h4>
               <p className="text-gray-600 mb-3">Clothing brand website clone with responsive design.</p>
-              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://lee-clone-ten.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Lee-clone" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -61,8 +61,8 @@ function App() {
               </div>
               <h4 className="text-xl font-semibold mb-2">Blinkit Clone</h4>
               <p className="text-gray-600 mb-3">Grocery delivery app clone built with React & API integration.</p>
-              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://blinkit-one-eta.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Blinkit" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -81,10 +81,10 @@ function App() {
               <div className="w-full h-56 overflow-hidden rounded-md mb-4">
                 <img src="/Images/Almond.png" alt="Almond Webpage" className="w-full h-full object-cover" />
               </div>
-              <h4 className="text-xl font-semibold mb-2">Almond Webpage</h4>
+              <h4 className="text-xl font-semibold mb-2">Oriflav-dryfruit</h4>
               <p className="text-gray-600 mb-3">Landing page for almond products with clean UI.</p>
-              <a href="#" className="text-blue-600 font-medium mr-4">Live Demo</a>
-              <a href="#" className="text-gray-800 font-medium">GitHub</a>
+              <a href="https://oriflav-dryfruits.vercel.app/" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/Oriflav-dryfruits" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
 
@@ -169,6 +169,7 @@ function App() {
           <h3 className="text-3xl font-bold mb-6">Contact 📬</h3>
           <p className="text-gray-700 mb-4">Feel Free to connect anytime🙌. Let's work together! You can reach me at:</p>
           <p className="text-lg font-medium">📧 varungehlot2310@gmail.com</p>
+           <p className="text-lg font-medium">📞 +919352305361</p>
           <div className="mt-4 space-x-6">
             <a href="https://www.linkedin.com/in/varun-gehlot-19860231b/" className="text-blue-600 font-medium">LinkedIn</a>
             <a href="https://github.com/Varun1023" className="text-blue-600 font-medium">GitHub</a>
