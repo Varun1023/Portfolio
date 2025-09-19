@@ -35,7 +35,7 @@ function App() {
 
             <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
               <div className="w-full h-56 overflow-hidden rounded-md mb-4">
-                <img src="public\Images\Myntra.png" alt="Myntra Clone" className="w-full h-full object-cover" />
+                <img src="/Images/Myntra.png" alt="Myntra Clone" className="w-full h-full object-cover" />
               </div>
               <h4 className="text-xl font-semibold mb-2">Myntra Clone</h4>
               <p className="text-gray-600 mb-3">E-commerce website clone with product listing and cart features.</p>
@@ -152,12 +152,12 @@ function App() {
         <div className="certificates max-w-4xl mx-auto px-6 mt-[50px] text-center">
           <h1 className='text-[30px] font-bold  '>CERTIFICATES📜</h1>
           <img
-            src="public\Images\certificate.jpg"
+            src="/Images/certificate.jpg."
             alt="Certificate 1"
             className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
           />
           <img
-            src="public\Images\ethicalhacking.png"
+            src="/Images/ethicalhacking.png"
             alt="Certificate 2"
             className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
           />
