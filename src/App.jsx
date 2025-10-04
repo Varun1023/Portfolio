@@ -161,6 +161,8 @@ function App() {
             alt="Certificate 2"
             className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
           />
+
+          <img src="/Images/certificate1.jpg" alt="Certificate 3"  className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"/>
         </div>
       </section>
 
