@@ -109,12 +109,24 @@ function App() {
               <a href="https://github.com/Varun1023/Weather-app" target="_blank" className="text-gray-800 font-medium">GitHub</a>
             </motion.div>
 
+            <motion.div whileHover={{ scale: 1.05 }} className="bg-white shadow-lg rounded-2xl p-6">
+              <div className="w-full h-56 overflow-hidden rounded-md mb-4">
+                <img src="/Images/quickmark.png" alt="QuickMark" className="w-full h-full object-cover" />
+              </div>
+              <h4 className="text-xl font-semibold mb-2">QuickMark</h4> 
+              <p className="text-gray-600 mb-3">
+                QR code generator & scanner app for quick sharing and access to links.
+              </p>
+              <a href="https://quickmark-frontend.vercel.app/login" target="_blank" className="text-blue-600 font-medium mr-4">Live Demo</a>
+              <a href="https://github.com/Varun1023/QuickMark-Backend" target="_blank" className="text-gray-800 font-medium">GitHub</a>
+            </motion.div>
+
           </div>
         </div>
       </section>
 
 
-      
+
 
 
 
@@ -153,10 +165,10 @@ function App() {
           <h1 className='text-[30px] font-bold  '>CERTIFICATES📜</h1>
 
           <img src="/Images/certificate1.jpg"
-           alt="Certificate 3"  
-           className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
-           />
-           
+            alt="Certificate 3"
+            className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
+          />
+
           <img
             src="/Images/certificate.jpg"
             alt="Certificate 1"
@@ -168,12 +180,12 @@ function App() {
             className="m-[15px] w-[75%] mx-auto rounded-lg shadow-md"
           />
 
-          
+
         </div>
       </section>
 
 
-            {/* Learn in Public Challenge Section */}
+      {/* Learn in Public Challenge Section */}
       <section id="challenge" className="py-16 bg-[#E5E7EB]">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-3xl font-bold mb-10">Learn in Public Challenge 📖</h3>
@@ -184,7 +196,7 @@ function App() {
             <h4 className="text-xl font-semibold mb-3">#LearnInPublic Journey</h4>
             <p className="text-gray-700 mb-4">
               I also started a challenge on <span className="font-semibold">LinkedIn</span> where I
-              shared and taught the skills I've learned during my web development journey 🚀.  
+              shared and taught the skills I've learned during my web development journey 🚀.
               This challenge reflects my progress, consistency, and passion for helping others learn
               while improving my own understanding.
             </p>
@@ -217,7 +229,7 @@ function App() {
           <h3 className="text-3xl font-bold mb-6">Contact 📬</h3>
           <p className="text-gray-700 mb-4">Feel Free to connect anytime🙌. Let's work together! You can reach me at:</p>
           <p className="text-lg font-medium">📧 varungehlot2310@gmail.com</p>
-           <p className="text-lg font-medium">📞 +919352305361</p>
+          <p className="text-lg font-medium">📞 +919352305361</p>
           <div className="mt-4 space-x-6">
             <a href="https://www.linkedin.com/in/varun-gehlot-19860231b/" className="text-blue-600 font-medium">LinkedIn</a>
             <a href="https://github.com/Varun1023" className="text-blue-600 font-medium">GitHub</a>
